@@ -6,3 +6,7 @@
 Route::post("usuario/registro","UserController@registrar");
 
 Route::post("usuario/login","UserController@logear");
+
+Route::post("incidencias/registro", "IncidenciaController@registrar");
+
+Route::get("incidencias","IncidenciaController@listar");

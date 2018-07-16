@@ -14,6 +14,8 @@ class VerifyCsrfToken extends BaseVerifier
     protected $except = [
         //aca le indico que no me pida el token a las siguientes rutas porque estoy en el mismo server
         "usuario/registro",
-        "usuario/login"
+        "usuario/login",
+        "incidencias/registro",
+        "incidencias"
     ];
 }
